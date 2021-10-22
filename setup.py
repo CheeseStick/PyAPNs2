@@ -4,11 +4,11 @@ from setuptools import setup
 
 setup(
     name='apns2',
-    version='0.7.2',
+    version='0.7.3',
     packages=['apns2'],
     install_requires=[
         'hyper>=0.7',
-        'PyJWT>=2.0.0',
+        'PyJWT>=2.0.1',
         'cryptography>=1.7.2',
     ],
     extras_require={
@@ -24,7 +24,6 @@ setup(
     classifiers=[
         'Development Status :: 4 - Beta',
         'License :: OSI Approved :: MIT License',
-        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
